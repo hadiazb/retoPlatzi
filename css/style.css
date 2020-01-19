@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+  margin: 0; /*Margen superior de la pantalla igual a cero*/
+  padding: 0; /*Margen izquierda de la pantalla igual a cero*/
+}
+.row{
+  text-align: center;
+  font-size: 10px;
+}
+[class^="col"]{
+  background-color: blue;
+  border: 1px solid white;
+  height: 100px;
+  line-height: 100px;
+}
